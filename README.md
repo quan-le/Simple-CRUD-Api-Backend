@@ -14,9 +14,6 @@ This project aims to create a simple CRUD app include basic API function get, po
 - Nodemon framework
 
 ## Requirements for Installing
-- 
-
-## Instructions
 - Javascript
 - Nodejs
 - Check the 0_Installation_and_Run.txt
@@ -28,3 +25,9 @@ This project aims to create a simple CRUD app include basic API function get, po
 - Create (post) product in database using id in the url
 - Delete product in database using id in the url
 
+## Instructions
+- Get all: Send Get request to localhost:3000/api/testObjDb
+- Get 1 product: Send Get request to localhost:3000/api/testObjDb/:id
+- Create 1 product : Send Post request with Json or Form-encoded format body to localhost:3000/api/testObjDb/:id
+- Update 1 product : Send Put request to localhost:3000/api/testObjDb/:id
+- Delete 1 product : Send Delete request to localhost:3000/api/testObjDb/:id
