@@ -1,0 +1,6 @@
+npm init -y                                                 //get package.json
+npm i express                                               //Install Express
+npm i nodemon -D                                            //Install Nodemon; run: nodemon file.js should include inside package.json under script
+admin:admin                                                 //MongoDB Atlas username:password
+npm install mongodb                                         //Install MongoDB
+npm install mongoose                                        //Install Mongoose for easy access to mongoDb
