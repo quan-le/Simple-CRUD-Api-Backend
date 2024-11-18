@@ -2,8 +2,7 @@ const express = require('express')                                              
 const app = express()                                                                       //create express application/object app
 
 const mongoose = require('mongoose');                                                       //import mongoose
-const TestDbObj = require('./models/testDbObj.model.js');
-const testDbObj = require('./models/testDbObj.model.js');
+const TestDbObj = require('./models/testDbObj.model.js');                                   //Import model for the controller of straighforward method
 const testDbObj_Route = require("./routes/testDbObj.route")                                 //import route
 
 
@@ -19,7 +18,7 @@ app.get('/', function (req, res) {
     res.send('Hello Ocean Bank/Park')
 });
 
-/*This is how we write the api without organize it into folder, infact we should use routes, and inside routes we should use controller to do this
+/*This is how we write the api without organizing it into folder and using routes, and inside routes we should use controller to do this
 you can remove this comment to see it clearer
 
 //post api to input object from user body(json, form) to database
