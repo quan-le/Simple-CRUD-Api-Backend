@@ -3,8 +3,8 @@ const router = express.Router();
 const TestDbObj = require("../models/testDbObj.model.js");                                              //import models, however if we do it the organize way we only need to import model in the controller, this is for the demo api only
 const testDbObjController = require("../controllers/testDbObj.controller.js");                          //import controller object to use its exported function
 
-//Router is for different kind of api of the same webpage, there fore is new url will need a new router
-//we use router to categorize which controller function go to with api for which url
+//Router is for defining different kind of api of the same webpage, therefore with new url will need a new router
+//we use router to categorize which controller function go to with api for which url and for which type of request
 //this is where the api should be called, however the sync function aka controller should be put into another folder instead so is should be like the get api below not this one
 //So each api call (get,post,put,delete) will require a new function inside the controller, 
 

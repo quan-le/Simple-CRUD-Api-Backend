@@ -1,3 +1,7 @@
+//Controler will act as what actually happen when sending request (involve try catch, doing action based on given data from the request)
+//Controller will connect models, business logic and web pages (html)
+//***Handles page events and navigation between pages
+//In most of the case, controller will interact with database by writing API (as a function and it will be used in Router) to interact with it
 const TestDbObj = require("../models/testDbObj.model");
 
 //get api to return all products

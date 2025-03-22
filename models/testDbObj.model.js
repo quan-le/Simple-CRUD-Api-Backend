@@ -1,4 +1,6 @@
 //We create model of our object first before using it to create database, kinda similar to implementation class
+//Model can be understand as basically a classes (or OBJECTS) or IMPLEMENTATION class : manages the BEHAVIOR (Objects) and DATA
+//In this case we create an *implementation class for DbObject*
 
 const mongoose = require('mongoose');
 //Create Schema object
